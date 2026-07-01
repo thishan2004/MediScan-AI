@@ -8,4 +8,4 @@ venv/
 .streamlit/secrets.toml
 
 data/raw/
-*.zip
+*.zipmodels/*.pkl
