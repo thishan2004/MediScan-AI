@@ -1,5 +1,11 @@
 #  MediScan AI
 
+## 🌐 Live Demo
+
+**Try MediScan AI here:**
+
+https://mediscan-ai-eemjxm5y4pc5n8fckvufrh.streamlit.app
+
 ## Drug–Drug Interaction Prediction using Machine Learning
 
 MediScan AI is an end-to-end Machine Learning project that predicts potential Drug–Drug Interaction (DDI) types using the DrugBank DDI dataset.
