@@ -30,6 +30,27 @@ MediScan AI demonstrates how Machine Learning can assist in predicting interacti
 - PDF Report Generation
 - Interactive Streamlit Web Application
 
+
+
+---
+
+# Application Screenshots
+
+## Home Page
+![Home Page](images/app.png)
+
+## Drug Interaction Predictor
+![Predictor Page](images/predictor.png)
+
+## Analytics Dashboard
+![Analytics Dashboard](images/analytics.png)
+
+## Model Performance
+![Model Performance](images/modelperformance.png)
+
+## PDF Report Generator
+![PDF Report](images/report.png)
+
 ---
 
 # Dataset
