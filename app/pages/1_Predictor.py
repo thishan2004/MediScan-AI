@@ -66,9 +66,34 @@ def load_dataset():
 
 @st.cache_resource
 def load_model_and_encoders():
-    model = joblib.load("models/best_model.pkl")
-    drug_encoder = joblib.load("models/drug_encoder.pkl")
-    target_encoder = joblib.load("models/target_encoder.pkl")
+    from huggingface_hub import hf_hub_download
+import joblib
+
+REPO_ID = "thishan2004/mediscan-ai-model"
+
+@st.cache_resource
+def load_model_and_encoders():
+
+    model_path = hf_hub_download(
+        repo_id=REPO_ID,
+        filename="best_model.pkl"
+    )
+
+    drug_encoder_path = hf_hub_download(
+        repo_id=REPO_ID,
+        filename="drug_encoder.pkl"
+    )
+
+    target_encoder_path = hf_hub_download(
+        repo_id=REPO_ID,
+        filename="target_encoder.pkl"
+    )
+
+    model = joblib.load(model_path)
+    drug_encoder = joblib.load(drug_encoder_path)
+    target_encoder = joblib.load(target_encoder_path)
+
+    return model, drug_encoder, target_encoder
     return model, drug_encoder, target_encoder
 
 df = load_dataset()
