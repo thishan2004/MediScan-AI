@@ -1,8 +1,8 @@
-streamlit==1.36.0
-pandas==2.2.2
-numpy==1.26.4
+streamlit
+pandas
+numpy
 scikit-learn==1.6.1
-joblib==1.4.2
-plotly==5.22.0
-reportlab==4.2.2
-matplotlib==3.9.0
+joblib
+plotly
+matplotlib
+reportlab>=4.4
