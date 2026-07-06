@@ -7,4 +7,4 @@ plotly
 joblib
 reportlab
 matplotlib
-huggingface_hubjoblib
+
