@@ -4,7 +4,7 @@
 
 **Try MediScan AI here:**
 
-https://mediscan-ai-eemjxm5y4pc5n8fckvufrh.streamlit.app
+https://mediscan-ai-dvkjmwvz7xtmr45ftnqbdm.streamlit.app
 
 ## Drug–Drug Interaction Prediction using Machine Learning
 
